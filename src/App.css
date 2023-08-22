@@ -344,7 +344,7 @@ h3{
     cursor: default;
   }
 }
-@media (max-width: 912px) {
+@media (max-width: 912px){
   .menu-btn {
     display: block;
   }
@@ -407,14 +407,22 @@ h3{
   }
   .skills-flex{
     height: 605px;
+    gap: 3px;
   }
 }
 @media (max-width: 480px) {
+  /* .about-page{
+    height: 850px;
+  } */
   .skill-component {
     height: 710px;
   }
   .skills-flex {
     border: none;
+    gap: 3px;
+  }
+  .skills-page{
+    margin-top: -5px;
   }
   /* .skills-page {
     height: 710px;

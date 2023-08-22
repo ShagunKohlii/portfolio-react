@@ -1,4 +1,5 @@
 import './App.css';
+// import React, { useRef } from 'react';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 import About from './components/About';
@@ -24,14 +25,14 @@ function App() {
       <div className="project-component">
         <h2 style={{ color: 'black', textAlign: 'center', marginBottom: '40px' }}>Projects</h2>
         {/* <div className='project-trial'> */}
-        <Projects  img={"./assets/gfg-clone.png"} h={'Codehub'} para={'this is the clone of gfg and it is made with reactjs and mui.'}/>
-        <Projects img={'./assets/weather-app.png'} h={'Weather app'} para={'this is the weather app and it is made with vanilla js and openmap.org.'}/>
-        <Projects  img={'./assets/rockgame.png'} h={'rock paper scissor game'} para={'This is the rock paper scissor game made with the help of vanilla js '}/>
-        <Projects  img={'./assets/rockgame.png'} h={'rock paper scissor game'} para={'This is the rock paper scissor game made with the help of vanilla js '}/>
+        <Projects img={"./assets/gfg-clone.png"} h={'Codehub'} para={'this is the clone of gfg and it is made with reactjs and mui.'} />
+        <Projects img={'./assets/weather-app.png'} h={'Weather app'} para={'this is the weather app and it is made with vanilla js and openmap.org.'} />
+        <Projects img={'./assets/rockgame.png'} h={'rock paper scissor game'} para={'This is the rock paper scissor game made with the help of vanilla js '} />
+        <Projects img={'./assets/rockgame.png'} h={'Personal Portfolio'} para={'This is the personal portfolio made with the help of Reactjs '} />
 
         {/* </div> */}
       </div>
-      <Contact/>
+      <Contact />
     </>
   );
 }

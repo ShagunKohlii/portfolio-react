@@ -29,10 +29,10 @@ function App() {
       <div className="project-component" id='projectid'>
         <h2 style={{ color: 'black', textAlign: 'center', marginBottom: '40px', fontSize:'2rem' }}>Projects</h2>
         {/* <div className='project-trial'> */}
-        <Projects img={"./assets/gfg-clone.png"} h={'Codehub'} para={'this is the clone of gfg and it is made with reactjs and mui.'} />
-        <Projects img={'./assets/weather-app.png'} h={'Weather app'} para={'this is the weather app and it is made with vanilla js and openmap.org.'} />
-        <Projects img={'./assets/rockgame.png'} h={'rock paper scissor game'} para={'This is the rock paper scissor game made with the help of vanilla js '} />
-        <Projects img={'./assets/rockgame.png'} h={'Personal Portfolio'} para={'This is the personal portfolio made with the help of Reactjs '} />
+        <Projects img={"./assets/gfg-clone.png"} h={'Codehub'} para={'Developed a Frontend clone of Geeks for Geeks, using ReactJs.'}  projectlink={'https://github.com/ShagunKohlii/CodeHub-react'} />
+        <Projects img={'./assets/weather-app.png'} h={'Weather app'} para={'Developed Weather App using ReactJS to showcase real-time weather information.'}  projectlink={'https://github.com/ShagunKohlii/Weather-app'} />
+        <Projects img={'./assets/rockgame.png'} h={'rock paper scissor game'} para={'Developed Rock-Paper-Scissors game using HTML, CSS, and JavaScript'}  projectlink={'https://github.com/ShagunKohlii/Rock-paper-scissor-game'} />
+        <Projects img={'./assets/portfoliojs.png'} h={'Personal Portfolio'} para={'Created a personal portfolio website using ReactJS to showcase my work and skills.'}  projectlink={'https://github.com/ShagunKohlii/portfolio-react'} />
 
         {/* </div> */}
       </div>

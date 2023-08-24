@@ -4,7 +4,6 @@
 * {
   padding: 0;
   margin: 0;
-
   font-family: "IBM Plex Mono", monospace;
   font-family: "Lora", serif;
   font-family: "Preahvihear", sans-serif;
@@ -50,7 +49,6 @@
 }
 .navbar-links {
   display: flex;
-
   height: 20px;
 }
 .nav-btn {
@@ -60,9 +58,12 @@
   text-decoration: none;
   margin: 0px 10px 0 10px;
 }
-
+.navbtn-color {
+  color: white;
+}
 a {
   text-decoration: none;
+  color: black;
 }
 a:hover {
   color: pink;
@@ -111,43 +112,6 @@ a:hover {
 }
 .btn-style {
   background-color: transparent;
-}
-.about-page {
-  background: rgb(17, 24, 39);
-  background: linear-gradient(
-    180deg,
-    rgba(17, 24, 39, 1) 0%,
-    rgba(218, 227, 229, 1) 100%
-  );
-}
-/* About page  */
-.image {
-  width: 300px;
-  height: 300px;
-}
-.info {
-  margin-top: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0px;
-}
-.h1 {
-  text-align: center;
-}
-.left-about {
-  width: 50%;
-  text-align: center;
-}
-.right-info-content {
-  width: 50%;
-  padding: 10px;
-}
-.margin {
-  margin-bottom: 15px;
-}
-.address {
-  color: black;
 }
 
 /* Home/ right component  */
@@ -221,6 +185,44 @@ a:hover {
   }
 }
 
+/* About page  */
+.about-page {
+  background: rgb(17, 24, 39);
+  background: linear-gradient(
+    180deg,
+    rgba(17, 24, 39, 1) 0%,
+    rgba(218, 227, 229, 1) 100%
+  );
+}
+.image {
+  width: 300px;
+  height: 300px;
+}
+.info {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+}
+.h1 {
+  text-align: center;
+}
+.left-about {
+  width: 50%;
+  text-align: center;
+}
+.right-info-content {
+  width: 50%;
+  padding: 10px;
+}
+.margin {
+  margin-bottom: 15px;
+}
+.address {
+  color: black;
+}
+
 /* utils */
 .color {
   color: #b55ce2;
@@ -241,7 +243,6 @@ a:hover {
   flex-direction: column;
   align-items: center;
 }
-
 .skills-flex {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -250,7 +251,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   height: 400px;
-  width: 80%;
+  width: 81%;
   border: 2px solid white;
   border-radius: 20px;
   flex-wrap: wrap;
@@ -269,6 +270,11 @@ a:hover {
 }
 h3 {
   font-size: 1.1rem;
+  text-align: center;
+}
+.skill-h3 {
+  font-size: 0.99rem;
+  text-align: center;
 }
 .skills-img {
   height: 80px;
@@ -305,9 +311,18 @@ h3 {
   width: 70vw;
   padding: 10px;
 }
+.project-p {
+  text-align: center;
+  margin-bottom: 2px;
+}
+.project-h {
+  color: blueviolet;
+}
+.project-link {
+  cursor: pointer;
+}
 
 /* contact page  */
-
 .contact-component {
   background-color: rgb(17, 24, 39);
   height: 600px;
@@ -323,17 +338,14 @@ h3 {
   background-color: white;
   margin-bottom: 20px;
 }
-
 .contact-section {
   flex: 1;
   padding: 20px;
 }
-
 .contact-form {
   display: flex;
   flex-direction: column;
 }
-
 .contact-form label,
 .contact-form input,
 .contact-form textarea,
@@ -346,12 +358,10 @@ h3 {
   width: 450px;
   height: 350px;
 }
-
 .contactimg-sec {
   height: 100%;
   width: 100%;
 }
-
 .submit-btn:hover {
   background-color: rgb(122, 137, 178);
   background-color: green;
@@ -360,7 +370,10 @@ h3 {
   text-align: center;
   margin: 0;
 }
+
+
 @media (max-width: 1309px) {
+  /* Home page animation section */
   .fixed {
     position: absolute;
     width: 260px;
@@ -386,20 +399,21 @@ h3 {
   }
 }
 @media (max-width: 912px) {
+  /* Contact page */
   .left-section {
     display: none;
   }
   .right-section {
     background-color: rgb(184, 102, 226);
   }
+  /* Navbar */
   .menu-btn {
     display: block;
   }
   .navbar-links {
     display: flex;
-
+    border: 1px solid grey;
     flex-direction: column;
-
     position: absolute;
     top: 90px;
     right: 10px;
@@ -417,6 +431,10 @@ h3 {
     margin: 20px 0px 20px 0px;
     text-align: center;
   }
+  .navbtn-color {
+    color: black;
+  }
+  /* Home page */
   .Home-component {
     flex-direction: column-reverse;
     height: 750px;
@@ -428,6 +446,7 @@ h3 {
     width: 100vw;
     height: 450px;
   }
+  /* About page */
   .right-info-content {
     width: 80%;
     margin-top: 10px;
@@ -435,6 +454,7 @@ h3 {
   .info {
     flex-direction: column;
   }
+  /* Skills page */
   .skill-component {
     height: 735px;
   }
@@ -444,19 +464,19 @@ h3 {
   }
 }
 @media (max-width: 480px) {
+  /* Skills page */
   .skill-component {
     height: 710px;
   }
   .skills-flex {
     border: none;
     gap: 3px;
+    width: 100%;
   }
   .skills-page {
     margin-top: -5px;
   }
-  .Home-component {
-    height: 630px;
-  }
+  /* Home page animation */
   .right-main {
     height: 400px;
   }
@@ -464,7 +484,6 @@ h3 {
     width: 265px;
     height: 265px;
   }
-
   .star {
     height: 35px;
     width: 35px;
@@ -476,6 +495,10 @@ h3 {
   .image {
     width: 200px;
     height: 200px;
+  }
+  /* Home page */
+  .Home-component {
+    height: 630px;
   }
   .left-main {
     width: 350px;
@@ -498,6 +521,7 @@ h3 {
   .info {
     margin: 5px;
   }
+  /* Project Page */
   .project-component {
     height: 100%;
   }
@@ -506,7 +530,6 @@ h3 {
     flex-direction: column;
     width: 80%;
     height: 500px;
-
     border: 2px solid black;
     border-radius: 20px;
   }

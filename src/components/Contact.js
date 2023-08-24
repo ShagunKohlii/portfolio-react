@@ -29,11 +29,11 @@ const Contact = () => {
       </div>
       {/* <div className='footer'> */}
         <div className='social-btns'>
-          <span className='links' > <a href="https://mui.com/material-ui/icons/" rel="noopener noreferrer"  target="_blank"><LinkedInIcon sx={{ fontSize: 30 }}/></a></span>
+          <span className='links' > <a href="https://www.linkedin.com/in/shagun-kohli-90a62a250/" rel="noopener noreferrer"  target="_blank"><LinkedInIcon sx={{ fontSize: 30 }}/></a></span>
             <span className='links'><a href="https://github.com/ShagunKohlii/" rel="noopener noreferrer" target="_blank"><GitHubIcon sx={{ fontSize: 30 }}/></a></span>
             {/* <span className='links'><a href="mailto:rishabkohli4@gmail.com" target="_blank"><AlternateEmailIcon sx={{ fontSize: 30 }}/></a></span> */}
             <span className='links'><a href="https://twitter.com/shagunkohlii" rel="noopener noreferrer" target="_blank"><TwitterIcon sx={{ fontSize: 30 }}/></a></span> 
-            <span className='links'><a href="www.google.com" rel="noopener noreferrer" target="_blank" ><InstagramIcon sx={{ fontSize: 30 }}/></a></span> 
+            <span className='links'><a href="https://www.instagram.com/shagunkohlii/" rel="noopener noreferrer" target="_blank" ><InstagramIcon sx={{ fontSize: 30 }}/></a></span> 
         </div>
       {/* </div> */}
     </>

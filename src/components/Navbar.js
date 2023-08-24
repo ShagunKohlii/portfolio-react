@@ -35,11 +35,11 @@ const Navbar = () => {
                     </div>
                     { open &&(
                         <ul className='navbar-links'>
-                            <li className='nav-btn'><Link to="homeid" spy={true} smooth={true} offset={-100} duration={100} >HOME</Link></li>
-                            <li className='nav-btn'><Link to="aboutid" spy={true} smooth={true} offset={0} duration={100} >ABOUT</Link></li>
-                            <li className='nav-btn'><Link to="skillid" spy={true} smooth={true} offset={10} duration={100} >SKILLS</Link></li>
-                            <li className='nav-btn'><Link to="projectid" spy={true} smooth={true} offset={0} duration={100} >PROJECTS</Link></li>
-                            <li className='nav-btn'><Link to="contactid" spy={true} smooth={true} offset={10} duration={100} >CONTACT</Link></li>
+                            <li className='nav-btn'><Link to="homeid" spy={true} smooth={true} offset={-100} duration={100}  className='navbtn-color'>HOME</Link></li>
+                            <li className='nav-btn'><Link to="aboutid" spy={true} smooth={true} offset={0} duration={100} className='navbtn-color' >ABOUT</Link></li>
+                            <li className='nav-btn'><Link to="skillid" spy={true} smooth={true} offset={10} duration={100}  className='navbtn-color'>SKILLS</Link></li>
+                            <li className='nav-btn'><Link to="projectid" spy={true} smooth={true} offset={0} duration={100} className='navbtn-color' >PROJECTS</Link></li>
+                            <li className='nav-btn'><Link to="contactid" spy={true} smooth={true} offset={10} duration={100}  className='navbtn-color'>CONTACT</Link></li>
                         </ul>
                     )}
                 </div>

@@ -13,8 +13,9 @@ const Home = () => {
                         <span className='heading'>I'm Shagun.</span> <br />
                         I'm Front-End developer
                         from Gurgaon.</div>
-
-                    <button className='btn'><CloudDownloadIcon className='btn-style' fontSize='small' /> RESUME</button>
+                    <a href="./assets/Shagun_resume.pdf" download="Shagun_resume.pdf">
+                        <button className='btn'><CloudDownloadIcon className='btn-style' fontSize='small' /> RESUME</button>
+                    </a>
                 </div>
             </div>
 

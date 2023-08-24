@@ -6,7 +6,7 @@ const About = () => {
             <div>
                 <h1 className='h1'>ABOUT ME</h1>
                 <div className='info'>
-                    <div className='left-about'><img className="image" src="./assets/shagun.jpg" alt="img" /></div>
+                    <div className='left-about'><img className="image" src="./assets/imgsh.jpg" alt="img" /></div>
                     <div className="right-info-content">
                         <h4 className="info-h">
                             Hii, I'm Shagun
